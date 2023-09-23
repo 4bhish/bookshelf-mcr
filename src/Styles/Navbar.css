@@ -1,0 +1,40 @@
+/* Navbar container styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change to your desired background color */
+    padding: 10px 0;
+    z-index: 999; /* Ensure the navbar appears above other content */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+  }
+  
+  /* Navbar content container styles */
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navbar brand (logo) styles */
+  .navbar-brand {
+    margin: 0;
+  }
+  
+  /* Navbar links (text and icons) styles */
+  .navbar-link {
+    color: #fff; /* Text color */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  /* Search icon styles */
+  .search-icon {
+    font-size: 24px; /* Adjust icon size as needed */
+  }
+  
